@@ -16,6 +16,8 @@ var normJawi = new Map([
   ['\u060c', '\u002c'],  // Arabic comma
   ['\u061b', '\u003b'],  // Arabic semicolon
   ['\u061f', '\u003f'],  // Arabic question mark
+  ['\u2e41', '\u002c'],  // Jawi comma
+  ['\u204f', '\u003b'],  // Jawi semicolon
 ])
 
 function convertJawiToken(jawi) {
@@ -32,9 +34,9 @@ function convertJawiToken(jawi) {
 }
 
 var normRumi = new Map([
-  ['\u002c', '\u060c'],  // comma
-  ['\u003b', '\u061b'],  // semicolon
-  ['\u003f', '\u061f'],  // question mark
+  ['\u002c', '\u2e41'],  // koma -> koma cermin
+  ['\u003b', '\u204f'],  // koma bernoktah -> koma bernoktah cermin
+  ['\u003f', '\u061f'],  // tanda soal
 ])
 
 function convertRumiToken(rumi) {
