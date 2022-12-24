@@ -97,12 +97,12 @@ function selectConversion(e) {
 function toggleDirection() {
   if (toRumi) {
     toRumi = false;
-    dir.innerHTML = "Rumi to Jawi";
+    dir.innerHTML = "Rumi -> Jawi";
     inp.style.direction = 'ltr';
     out.style.direction = 'rtl';
   } else {
     toRumi = true;
-    dir.innerHTML = "Jawi to Rumi";
+    dir.innerHTML = "Jawi -> Rumi";
     inp.style.direction = 'rtl';
     out.style.direction = 'ltr';
   }

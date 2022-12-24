@@ -5,30 +5,32 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="static/styles.css">
   <link rel="icon" href="favicon.png">
-  <title>Malay Rumi-Jawi Converter</title>
+  <title>Penukar Rumi-Jawi</title>
   <script defer src="static/rumi-jawi.js"></script>
+  <script defer src="static/rumi-jawi-tambahan.js"></script>
   <script defer src="static/main.js"></script>
 </head>
 
 <body>
   <div class="top">
-    <header>
-      <h1>Malay Rumi-Jawi Converter</h1>
+    <header style="height: 77.6969px;">
+      <h1 dir="auto">Penukar Jawi - Rumi • ڤنوکر جاوي - رومي</h1>
+      <p class= 'denyut' style="height: 27.991px; transform: translate(0px, -22.2857px);">Cabangan dari penukar <a href="https://goodmami.org/rumi-jawi-web/">Goodmami</a></p>
     </header>
     <nav>
-      <a class="at" href="index.html">Home</a>
+      <a class="at" href="index.html">Utama</a>
       &bull;
-      <a href="about.html">About Rumi and Jawi</a>
+      <a href="about.html">Tentang Jawi Rumi</a>
       &bull;
-      <a href="qa.html">Q & A</a>
+      <a href="qa.html">Soalan Lazim</a>
       &bull;
-      <a href="details.html">Technical Details</a>
+      <a href="details.html">Butiran Teknikal</a>
     </nav>
   </div>
 
   <main>
     <textarea id="input" placeholder="Enter text here"></textarea>
-    <div><span id="direction">Rumi to Jawi</span> &mdash; <span id="directionToggle">Switch Direction</span></div>
+    <div><span id="direction">Rumi -> Jawi</span> &mdash; <span id="directionToggle">Tukar Arah</span></div>
     <div class="outputArea">
       <div class="info">
         <span class="label">Original:</span><span id="original"></span>
