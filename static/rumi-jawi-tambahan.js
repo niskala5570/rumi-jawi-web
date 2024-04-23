@@ -28,8 +28,8 @@ var rjtambahan = [
   "android	اندروٴيد",
   "anemo	انيمو	انيٚموٚ",
   "anime	انيمي	انيميٚ",
-  "anisotropic	انيسوتروڤيک	انيسوٚتروٚڤيک",
-  "anisotropik	انيسوتروڤيک	انيسوٚتروٚڤيک",
+  "anisotropic	انيسوترڤيک	انيسوٚتروٚڤيک",
+  "anisotropik	انيسوترڤيک	انيسوٚتروٚڤيک",
   "anya	اڽا",
   "apakah	اڤاکه",
   "apple	ايڤل",
@@ -450,7 +450,15 @@ var rjtambahan = [
   "zaba	زعبا",
   "zen	زين",
   "zenith	زينيث",
-  "zoglin	زوݢلين"
+  "zoglin	زوݢلين",
+  "antialias	انتيألياسکن",
+  "antipengaliasan	انتيڤڠألياسن",
+  "antipepijat	انتيڤڤيجت",
+  "bitmap	بيتمڤ",
+  "diantialiaskan	دأنتيألياسکن",
+  "hiperlaju	هيڤرلاجو",
+  "nyahpepijat	ڽهڤڤيجت",
+  "oklusi	اوكلوسي"
 ];
 
 rjtambahan.forEach(function (line) {
